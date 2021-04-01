@@ -1,6 +1,5 @@
 #!/bin/bash
 
-su
-yum remove anydesk -y
-rm -rf /etc/anydesk
-yum install anydesk -y
+sudo yum remove anydesk -y
+sudo rm -rf /etc/anydesk
+sudo yum install anydesk -y
