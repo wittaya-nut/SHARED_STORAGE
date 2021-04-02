@@ -9,3 +9,4 @@ sudo rm -rf /etc/anydesk
 sudo yum install anydesk -y
 
 echo "DONE"
+rm -f $PWD/onetimerun.sh
