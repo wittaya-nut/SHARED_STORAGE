@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Patching System Display Resolution"
-echo "xrandr -s 1680x1050"
+echo "xrandr -s 1680x1050" >> ~/.bashrc
 
 echo "Refreshing AnyDesk"
 sudo yum remove anydesk -y
