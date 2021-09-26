@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Patching System Display Resolution"
-echo "xrandr -s 1680x1050" >> ~/.bashrc
+#echo "Patching System Display Resolution"
+#echo "xrandr -s 1680x1050" >> ~/.bashrc
 
 echo "Correction System Time Zone"
 sudo timedatectl set-timezone Asia/Bangkok
