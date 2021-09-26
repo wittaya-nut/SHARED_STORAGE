@@ -10,6 +10,7 @@ timedatectl
 echo "Refreshing AnyDesk"
 sudo yum remove anydesk -y
 sudo rm -rf /etc/anydesk
+sudo yum install epel-release -y
 sudo yum install anydesk -y
 
 echo "DONE"
